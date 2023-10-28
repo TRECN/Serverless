@@ -1,0 +1,23 @@
+{
+  "name": "my-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon -e py --exec sls offline --noPrependStageInUrl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TRECN/Serverless.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TRECN/Serverless/issues"
+  },
+  "homepage": "https://github.com/TRECN/Serverless#readme",
+  "dependencies": {
+    "serverless-offline": "^13.2.0"
+  }
+}
